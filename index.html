@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Youtube</title>
+	</head>
+
+	<body>
+		<header>
+			<button aria-label="Open the menu options">
+				<img src="./assets/graphics/icon/menu.svg" alt="Open the menu option" height="60" />
+			</button>
+
+			<a href="index.html">
+				<img src="./assets/graphics/logo/youtube.svg" alt="Youtube logo - link to homepage" />
+			</a>
+		</header>
+
+        <iframe src="./public/search-options.html" height="70" width="100%" scrolling="no" frameborder="0"></iframe>
+
+		<main>
+			<div>
+				<section id="main-video">
+					<figure>
+						<video height="350" width="550" controls autoplay muted loop>
+							<source src="./assets/videos/learn-java-in-14-minutes-seriously-1080-publer.io.mp4" type="video/mp4" />
+							Your browser does not support the video tag.
+						</video>
+						<figcaption>Learn Java in 14 Minutes (seriously) – A quick tutorial on Java basics.</figcaption>
+					</figure>
+				</section>
+
+				<section id="video-details">
+					<div class="video-views">
+						<p>200,399 views</p>
+					</div>
+					<div class="video-actions">
+						<button aria-label="Like the video">
+							<img src="./assets/graphics/icon/like.svg" alt="Like button with count" height="25" />
+							<span>111k</span>
+						</button>
+
+						<button aria-label="Dislike the video">
+							<img src="./assets/graphics/icon/dislike.svg" alt="Dislike button with count" height="25" />
+							<span>502</span>
+						</button>
+
+						<button aria-label="Share the video">
+							<img src="./assets/graphics/icon/share.svg" alt="Share the video" height="25" />
+							<span>SHARE</span>
+						</button>
+
+						<button aria-label="Add to playlist">
+							<img src="./assets/graphics/icon/playlist.svg" alt="Add to playlist" height="25" />
+						</button>
+
+						<button aria-label="More options for video settings">
+							<img src="./assets/graphics/icon/more options.svg" alt="More options for video settings" height="25" />
+						</button>
+					</div>
+
+					<div class="creator-info">
+						<a href="to be given">
+							<img src="./assets/graphics/creator/creator-profile.svg" alt="Creator profile picture" height="50" />
+						</a>
+						<a href="to be given">
+							<img src="./assets/graphics/creator/user-name.svg" alt="User name and when the video was published" height="50" />
+						</a>
+
+						<button aria-label="Subscribe to the channel">
+							<img src="./assets/graphics/icon/subscribe.svg" alt="Subscribe to the channel" height="40" />
+						</button>
+
+						<button aria-label="Enable notifications">
+							<img src="./assets/graphics/icon/notification.svg" alt="Enable notifications" height="40" />
+						</button>
+					</div>
+				</section>
+			</div>
+
+			<div class="description">
+				<p>
+					<details>
+						<summary>
+							Looking to get started with Java but short on time? In this super-efficient tutorial, we'll walk you through the essential Java concepts in just 14
+							minutes!
+						</summary>
+
+						<p>
+							Whether you're a complete beginner or just need a quick refresher, this video covers all the key basics of Java, including variables, data types,
+							control structures, and more. By the end, you'll have a solid foundation to start writing your own Java programs.
+						</p>
+
+						<p><strong>⏱️ What’s Covered in This Video:</strong></p>
+
+						<ul>
+							<li>Introduction to Java syntax</li>
+							<li>Variables, data types, and operators</li>
+							<li>Control structures (if-else, loops)</li>
+							<li>Methods and functions</li>
+							<li>Tips and tricks for fast learning</li>
+						</ul>
+
+						<p>Don’t forget to like, subscribe, and hit the bell for more coding tutorials!</p>
+					</details>
+				</p>
+			</div>
+
+			<hr />
+
+			<iframe src="./public/related-videos.html" height="570" width="100%" scrolling="no" frameborder="0"></iframe>
+		</main>
+
+		<hr />
+
+		<iframe src="./public/comment.html" height="900" width="100%" scrolling="no" frameborder="0"></iframe>
+	</body>
+
+	<footer>
+		<p>&copy; Practice Purposes</p>
+	</footer>
+</html>
